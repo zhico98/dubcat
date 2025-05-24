@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dubcat Universe</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body {
+      background-color: white;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #222;
+      text-align: center;
+      padding: 50px 20px 20px 20px;
+    }
+
+    .social-top {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .social-btn {
+      background-color: #000;
+      color: lime;
+      padding: 10px 15px;
+      margin-left: 10px;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .social-btn:hover {
+      background-color: #222;
+    }
+
+    img {
+      max-width: 300px;
+      margin: 20px 0;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #00ff00;
+      text-shadow: 2px 2px #000;
+      margin-top: 80px;
+    }
+
+    .weird-box {
+      background: #ff00ff22;
+      border: 5px dashed #0000ff;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 600px;
+      transform: rotate(-2deg);
+      animation: wiggle 1s infinite alternate;
+    }
+
+    @keyframes wiggle {
+      0% { transform: rotate(-2deg); }
+      100% { transform: rotate(2deg); }
+    }
+
+    button {
+      background-color: #000;
+      color: lime;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #222;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="social-top">
+    <a class="social-btn" href="https://pump.fun/board" target="_blank">Pump.fun</a>
+    <a class="social-btn" href="https://t.me/dubcat_chat" target="_blank">Telegram</a>
+    <a class="social-btn" href="https://x.com/dubcat_sol" target="_blank">Twitter</a>
+  </div>
+
+  <h1>Welcome to the Dubcat Portal</h1>
+  <img src="dubcat.jpg" alt="Dubcat">
+
+  <div class="weird-box">
+    <p>Everything is weird here. Is it a cat? Is it an alien? Nobody knows.</p>
+    <p>Dubcat solves everything with <strong>"gib"</strong>.</p>
+  </div>
+
+  <button onclick="alert('GIB GIB GIB 🐾')">Press the Dubcat</button>
+
+</body>
+</html>
